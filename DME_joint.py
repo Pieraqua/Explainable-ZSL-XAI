@@ -18,7 +18,7 @@ import util
 import sys
 import model_New
 import json
-from Eval.pycocoevalcap.eval import COCOEvalCap
+from pycocoevalcap.eval import COCOEvalCap
 from pycocotools.coco import COCO
 # CUDA_VISIBLE_DEVICES=0 python clswgan.py --manualSeed 806 --cls_weight 0.1 --syn_num 300 --preprocessing True --val_every 1
 # --cuda True --image_embedding res101 --class_embedding att --netG_name MLP_G --netD_name MLP_CRITIC --nepoch 97 --ngh 4096 --ndh 4096
